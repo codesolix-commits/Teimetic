@@ -1,291 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy – Snoleep (Android)</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-            line-height: 1.7;
-            color: #222;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background: #fff;
-        }
-        h1 { margin-bottom: 5px; }
-        h2 { margin-top: 30px; }
-        p, li { font-size: 16px; }
-        .subtitle {
-            color: #666;
-            margin-bottom: 30px;
-        }
-        .notice {
-            background: #f4f6f8;
-            padding: 18px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        a { color: #2563eb; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Teimetic (Android)</title>
+  <style>
+    :root { --bg:#F8F8FC; --card:#fff; --tx:#191922; --tx2:#6B6B78; --ac:#2F6BFF; --line:#E7E7F0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#101018; --card:#1A1A27; --tx:#F2F2F8; --tx2:#A3A3B3; --ac:#5B9BFF; --line:#2A2A3A; }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--tx); line-height: 1.65; padding: 24px 18px 60px; }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.02em; }
+    .updated { color: var(--tx2); font-size: 14px; margin-bottom: 28px; }
+    h2 { font-size: 18px; font-weight: 650; margin: 28px 0 10px; }
+    p, li { font-size: 15.5px; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    a { color: var(--ac); }
+    .card { background: var(--card); border-radius: 16px; padding: 20px; margin: 18px 0; border: 1px solid var(--line); }
+  </style>
 </head>
-
 <body>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Teimetic for Android · Last updated: October 31, 2026</p>
 
-<h1>Privacy Policy</h1>
+    <p>Teimetic (“we”, “our”, or “the App”) is a personal screen-time management application developed by Code Solix for Android devices. This Privacy Policy explains what information the App accesses, how it is used, and the choices you have.</p>
 
-<div class="subtitle">
-    Snoleep (Android) · Last updated: October 8, 2026
-</div>
+    <div class="card">
+      <p><strong>Short summary:</strong> On Android, Teimetic can read your app usage only after you manually grant the special “Usage Access” permission. Your detailed usage data is processed on your device. We do not sell your personal information.</p>
+    </div>
 
-<p>
-    This Privacy Policy explains how Snoleep handles information when you use
-    the Snoleep Android application.
-</p>
+    <h2>1. Information We Access on Android</h2>
+    <ul>
+      <li><strong>Usage Access (PACKAGE_USAGE_STATS)</strong> – This is a special Android permission. When you grant it in system Settings, the App can read how long individual apps have been used. This data is used only to show you personal insights, apply the limits you set, and trigger optional notifications. You can revoke this permission at any time.</li>
+      <li><strong>Notifications (POST_NOTIFICATIONS)</strong> – Optional. Used to send local alerts when a daily or app limit is reached or when a focus session ends.</li>
+      <li><strong>Focus session history</strong> – Label, duration and timestamp of sessions you complete are stored locally on your device.</li>
+      <li><strong>Rules & preferences</strong> – Daily goals, app rules, theme and notification settings are stored locally.</li>
+      <li><strong>Purchase status</strong> – A local flag indicating whether you have an active Teimetic Premium subscription. Payment processing is handled entirely by Google Play.</li>
+    </ul>
 
-<h2>1. Information We Collect</h2>
+    <h2>2. How We Use the Information</h2>
+    <ul>
+      <li>To display your personal screen-time statistics and trends.</li>
+      <li>To enforce the daily limits and app rules you create.</li>
+      <li>To run focus timers and keep a local history of completed sessions.</li>
+      <li>To send optional local notifications about limits and sessions.</li>
+    </ul>
+    <p>We do <strong>not</strong> use your usage data for advertising, profiling, cross-app tracking, or selling to third parties.</p>
 
-<p>
-    Snoleep is designed to provide sleep tracking and wellness features without
-    requiring you to create an account for standard use.
-</p>
+    <h2>3. Data Storage & Sharing</h2>
+    <ul>
+      <li>Detailed usage statistics, rules and focus history are stored <strong>locally on your Android device</strong>.</li>
+      <li>We do not operate a server that continuously receives your app-usage history.</li>
+      <li>If you contact support by email, the information you choose to send is used only to respond to your request.</li>
+      <li>Subscription payments are processed by Google Play. We never receive your full payment card details.</li>
+    </ul>
 
-<ul>
-    <li>
-        <strong>Sleep information:</strong>
-        Sleep duration, sleep history, sleep stages, sleep scores, schedules,
-        trends, and related information may be stored on your device so that
-        Snoleep can provide sleep tracking and insights.
-    </li>
+    <h2>4. Permissions Summary (Android)</h2>
+    <ul>
+      <li><strong>Usage Access</strong> – Required for real tracking. Must be enabled manually in Android Settings → Special app access → Usage access. Can be turned off at any time.</li>
+      <li><strong>Notifications</strong> – Optional. Can be denied or later disabled in system settings.</li>
+      <li><strong>Internet</strong> – Used only for opening support links, store pages, and (if applicable) restoring purchases.</li>
+    </ul>
 
-    <li>
-        <strong>Snoring information:</strong>
-        Snoleep may process audio recordings or detected snoring events when
-        you use the snoring detection and recording features.
-    </li>
+    <h2>5. Children’s Privacy</h2>
+    <p>Teimetic is not directed at children under 13. We do not knowingly collect personal information from children under 13. Contact us if you believe a child has provided personal information and we will delete it.</p>
 
-    <li>
-        <strong>Audio processing:</strong>
-        Snore detection audio is processed on the device where supported by the
-        application. Snore detection is an automated estimate and is not a
-        medical diagnosis.
-    </li>
+    <h2>6. Your Choices</h2>
+    <ul>
+      <li>Revoke Usage Access or notification permission in Android system settings at any time.</li>
+      <li>Delete focus history and rules from within the App where the option is provided.</li>
+      <li>Uninstalling the App removes locally stored data from that device.</li>
+    </ul>
 
-    <li>
-        <strong>AI features:</strong>
-        If you use Snoleep's AI Chat or AI-powered wellness features, information
-        you choose to submit may be processed to generate responses. You may
-        choose whether to use your available sleep information with supported
-        AI features.
-    </li>
+    <h2>7. Changes</h2>
+    <p>We may update this Privacy Policy. The “Last updated” date will change when we do. Continued use of the App after changes constitutes acceptance of the revised policy.</p>
 
-    <li>
-        <strong>App settings:</strong>
-        Preferences such as appearance, sleep settings, sound settings,
-        schedules, and other application preferences may be stored locally.
-    </li>
-
-    <li>
-        <strong>Purchases:</strong>
-        Premium subscriptions and one-time purchases are processed through
-        Google Play Billing. Purchase status may be used to enable premium
-        features.
-    </li>
-</ul>
-
-<h2>2. Permissions</h2>
-
-<p>
-    Snoleep may request permissions that are necessary for features you choose
-    to use, such as microphone access for snoring detection and recording.
-</p>
-
-<p>
-    Permissions are used for the corresponding application functionality.
-    You can manage permissions through your Android device settings.
-</p>
-
-<h2>3. How We Use Information</h2>
-
-<p>
-    Information handled by Snoleep may be used to:
-</p>
-
-<ul>
-    <li>Track and display your sleep information.</li>
-    <li>Calculate wellness-oriented sleep scores and summaries.</li>
-    <li>Display sleep history, trends, and insights.</li>
-    <li>Provide snoring detection and recording functionality.</li>
-    <li>Provide sleep sounds and audio-related features.</li>
-    <li>Provide AI-powered wellness information when you choose to use it.</li>
-    <li>Remember your application preferences and settings.</li>
-    <li>Enable premium features after a valid purchase.</li>
-</ul>
-
-<h2>4. Data Storage</h2>
-
-<p>
-    Snoleep is designed to keep application information on your device where
-    the relevant feature operates locally.
-</p>
-
-<p>
-    Snoleep does not require an account for standard use. Your sleep history,
-    settings, and locally generated information may remain on your device
-    unless you delete the application or otherwise remove the relevant data.
-</p>
-
-<p>
-    If you voluntarily use a feature that sends information to a service,
-    including an AI-powered feature, the information required by that feature
-    may be processed by that service to provide the requested functionality.
-</p>
-
-<h2>5. Third-Party Services</h2>
-
-<p>
-    Payments for premium subscriptions and purchases on Android are processed
-    by Google Play. Google may process payment and transaction information
-    according to Google's applicable terms and privacy policies.
-</p>
-
-<p>
-    Snoleep does not receive or store your complete payment card information
-    through the application.
-</p>
-
-<h2>6. Subscriptions and Premium Features</h2>
-
-<p>
-    Snoleep may offer premium features through subscriptions or one-time
-    purchases. Available plans, prices, billing periods, trials, and other
-    purchase terms are displayed before purchase.
-</p>
-
-<p>
-    Android subscriptions purchased through Google Play are managed through
-    Google Play. Uninstalling Snoleep does not automatically cancel a
-    subscription.
-</p>
-
-<h2>7. Data Sharing</h2>
-
-<p>
-    We do not sell your personal information.
-</p>
-
-<p>
-    Information may be processed by third-party services only when necessary
-    to provide a feature you choose to use, process an App Store or Google
-    Play transaction, or comply with applicable legal requirements.
-</p>
-
-<h2>8. Children's Privacy</h2>
-
-<p>
-    Snoleep is not directed at children under the age of 13. We do not
-    knowingly seek to collect personal information from children under 13.
-</p>
-
-<h2>9. Data Security</h2>
-
-<p>
-    We take reasonable measures appropriate to the application and its
-    functionality to protect information handled by Snoleep. However, no
-    electronic storage or transmission system can be guaranteed to be
-    completely secure.
-</p>
-
-<h2>10. Your Choices</h2>
-
-<p>
-    You can control permissions through Android settings and can choose whether
-    to use optional features such as snoring detection and AI Chat.
-</p>
-
-<p>
-    You may also stop using Snoleep or delete the application at any time.
-</p>
-
-<h2>11. Wellness and Medical Disclaimer</h2>
-
-<div class="notice">
-    <strong>Important:</strong>
-    Snoleep is a wellness and sleep-tracking application. Sleep scores,
-    sleep-stage information, snoring detection, trends, insights, AI responses,
-    and other information provided by Snoleep are estimates intended for
-    general informational and wellness purposes only.
-</div>
-
-<p>
-    Snoleep is not a medical device and does not provide medical diagnosis,
-    treatment, prevention, or professional medical advice.
-</p>
-
-<p>
-    Snoring detection is an automated estimate and should not be relied upon
-    to diagnose sleep apnea or any other medical condition.
-</p>
-
-<p>
-    AI-generated information may be incomplete, inaccurate, or inappropriate
-    for your individual circumstances and should not be treated as medical
-    advice.
-</p>
-
-<p>
-    If you have concerns about your sleep, snoring, breathing, health, or
-    symptoms, consult a qualified healthcare professional.
-</p>
-
-<h2>12. Disclaimer</h2>
-
-<p>
-    Snoleep is provided on an "AS IS" and "AS AVAILABLE" basis. Sleep tracking
-    results, recordings, scores, estimates, insights, sounds, and AI-generated
-    information may not always be accurate or available.
-</p>
-
-<p>
-    We are not responsible for inaccuracies in sleep estimates, missed or
-    incorrectly detected snoring events, interruptions, device limitations,
-    recording failures, data loss, or compatibility issues.
-</p>
-
-<h2>13. Changes to This Privacy Policy</h2>
-
-<p>
-    We may update this Privacy Policy from time to time. Any updated version
-    will be published through the appropriate Snoleep privacy policy page.
-</p>
-
-<p>
-    Your continued use of Snoleep after changes become effective constitutes
-    acceptance of the updated policy where permitted by applicable law.
-</p>
-
-<h2>14. Contact</h2>
-
-<p>
-    If you have questions about this Privacy Policy or Snoleep, contact us:
-</p>
-
-<p>
-    <strong>Email:</strong>
-    <a href="mailto:codesolix@gmail.com">codesolix@gmail.com</a>
-</p>
-
-<p>
-    <strong>Developer:</strong> Code Solix
-</p>
-
-<p>
-    <a href="https://play.google.com/store/apps/dev?id=5649955080683844131"
-       target="_blank">
-        View Code Solix on Google Play
-    </a>
-</p>
-
+    <h2>8. Contact</h2>
+    <p><a href="mailto:codesolix@gmail.com">codesolix@gmail.com</a><br>Code Solix – Developer of Teimetic</p>
+  </div>
 </body>
 </html>
